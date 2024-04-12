@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <App/>
       <Products/>
+      <h1>ok</h1>
     </html>
   );
 }
