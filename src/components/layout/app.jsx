@@ -12,11 +12,11 @@ const App = ({children}) => {
                    alt="Your Image"/>
           </div>
           <div className="w-1/3 h-1/2 flex justify-center items-center">
-           <ul className="flex">
-             {categories.map((category) => (
-               <li className="ml-5" key={category.id}>{category.label}</li>
-             ))}
-           </ul>
+            <ul className="flex">
+              {categories.map((category) => (
+                <li className="ml-5" key={category.id}>{category.label}</li>
+              ))}
+            </ul>
           </div>
           <div className="w-1/3 h-1/2">
             <div className="flex justify-end items-center h-full">
