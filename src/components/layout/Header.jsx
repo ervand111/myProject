@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
-import {categories, products} from "@/utility/db";
+import {categories} from "@/utility/db";
 
-const App = ({children}) => {
+const Header = () => {
   return (
     <>
       <header className="w-full h-20 border-solid border-2 border-black-900 flex justify-center items-center ">
@@ -54,4 +54,4 @@ const App = ({children}) => {
   );
 };
 
-export default App;
+export default Header;
