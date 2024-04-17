@@ -5,7 +5,7 @@ import {categories} from "@/utility/db";
 const Header = () => {
   return (
     <>
-      <header className="w-full h-20 border-solid border-2 border-black-900 flex justify-center items-center ">
+      <header className="w-full h-20 border-solid border-2 border-black-900 flex justify-center items-center">
         <div className="w-11/12 h-full flex justify-between items-center m-auto ">
           <div className="w-1/3 h-20 rounded-full flex justify-between items-center">
             <Image className="w-auto h-16 rounded-full" src="/logo_nike_principal.jpg" width={100} height={100}

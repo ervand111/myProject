@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -51,10 +52,18 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-1/6 h-80  mr-8 flex justify-center items-start flex-wrap  ">
-          <div className="w-10 h-10 rounded-full bg-red-500 ml-5"></div>
-          <div className="w-10 h-10 rounded-full bg-red-500 ml-5"></div>
-          <div className="w-10 h-10 rounded-full bg-red-500 ml-5"></div>
-          <div className="w-10 h-10 rounded-full bg-red-500 ml-5"></div>
+          <div className="w-10 h-10 rounded-full bg-red-500 ml-5">
+            <Image className="w-full h-full rounded-full" src="/x.png" width={1000} height={1000}/>
+          </div>
+          <div className="w-10 h-10 rounded-full bg-red-500 ml-5">
+            <Image className="w-full h-full rounded-full" src="/f.jpeg" width={1000} height={1000}/>
+          </div>
+          <div className="w-10 h-10 rounded-full bg-red-500 ml-5">
+            <Image className="w-full h-full rounded-full" src="/yt.png" width={1000} height={1000}/>
+          </div>
+          <div className="w-10 h-10 rounded-full bg-red-500 ml-5">
+            <Image className="w-full h-full rounded-full" src="/inst.jpeg" width={1000} height={1000}/>
+          </div>
         </div>
       </div>
       <div className="w-full h-32 flex justify-between items-center">
